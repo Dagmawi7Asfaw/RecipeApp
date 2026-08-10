@@ -15,7 +15,7 @@ A professional iOS culinary application built entirely with **SwiftUI** and **Sw
 ## 📱 Screenshots & Previews
 
 ### 🚀 Premium Animated Splash Screen
-https://github.com/Dagmawi7Asfaw/RecipeApp/raw/main/docs/splash_demo.mp4
+![Animated Splash Screen](docs/splash_demo.gif)
 
 *(More screenshots coming soon)*
 - *Interactive Map & Culinary Atlas*
