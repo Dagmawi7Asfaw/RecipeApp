@@ -35,6 +35,7 @@
 		4DAA00222B432C730017C1D1 /* MealPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA00212B432C730017C1D1 /* MealPlannerView.swift */; };
 		4DAA00242B432C730017C1D1 /* RecipePDFRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA00232B432C730017C1D1 /* RecipePDFRenderer.swift */; };
 		4DAA00262B432C730017C1D1 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA00252B432C730017C1D1 /* MainTabView.swift */; };
+		4DAA00282B432C730017C1D1 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA00272B432C730017C1D1 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		4DAA00212B432C730017C1D1 /* MealPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlannerView.swift; sourceTree = "<group>"; };
 		4DAA00232B432C730017C1D1 /* RecipePDFRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePDFRenderer.swift; sourceTree = "<group>"; };
 		4DAA00252B432C730017C1D1 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		4DAA00272B432C730017C1D1 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				4DAA001D2B432C730017C1D1 /* RecipeImporterView.swift */,
 				4DAA00032B432C730017C1D1 /* RecipeMapView.swift */,
 				4DAA00232B432C730017C1D1 /* RecipePDFRenderer.swift */,
+				4DAA00272B432C730017C1D1 /* SplashScreenView.swift */,
 				4D5271A22B43038F000E5359 /* StepDetailView.swift */,
 				4DAA001B2B432C730017C1D1 /* WebRecipeParser.swift */,
 				4DAA00192B432C730017C1D1 /* WorldMapExplorerView.swift */,
@@ -255,6 +258,7 @@
 				4DAA00222B432C730017C1D1 /* MealPlannerView.swift in Sources */,
 				4DAA00242B432C730017C1D1 /* RecipePDFRenderer.swift in Sources */,
 				4DAA00262B432C730017C1D1 /* MainTabView.swift in Sources */,
+				4DAA00282B432C730017C1D1 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,10 +22,24 @@ struct RecipeAppApp: App {
         }
     }
     
+    @State private var showSplash = true
+    
     var body: some Scene {
         WindowGroup {
-            MainTabView()
-                .modelContainer(container)
+            ZStack {
+                MainTabView()
+                    .modelContainer(container)
+                    .opacity(showSplash ? 0 : 1)
+                
+                if showSplash {
+                    SplashScreenView {
+                        withAnimation(.easeInOut(duration: 0.3)) {
+                            showSplash = false
+                        }
+                    }
+                    .transition(.opacity)
+                }
+            }
         }
     }
     
