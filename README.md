@@ -13,7 +13,11 @@ A professional iOS culinary application built entirely with **SwiftUI** and **Sw
 - **📊 Nutrition Charts & PDF Export**: Rich Swift Charts displaying macro breakdowns, dietary badges (Vegan, Gluten-Free, Keto, etc.), and native PDF generation for beautifully printed recipe cards.
 
 ## 📱 Screenshots & Previews
-*(Add screenshots of your simulator runs here for GitHub viewers)*
+
+### 🚀 Premium Animated Splash Screen
+https://github.com/Dagmawi7Asfaw/RecipeApp/raw/main/docs/splash_demo.mp4
+
+*(More screenshots coming soon)*
 - *Interactive Map & Culinary Atlas*
 - *Grocery List & Reminders Integration*
 - *Pantry Matcher & Weekly Planner*
