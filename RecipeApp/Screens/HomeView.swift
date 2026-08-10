@@ -12,6 +12,7 @@ struct HomeView: View {
     @State private var showAddRecipeSheet: Bool = false
     @State private var showImporterSheet: Bool = false
     @State private var showCategorySheet: Bool = false
+    @State private var randomRecipe: RecipeModel?
     
     var filteredCategories: [(categoryName: String, recipes: [RecipeModel])] {
         var result: [(categoryName: String, recipes: [RecipeModel])] = []
@@ -193,6 +194,15 @@ struct HomeView: View {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     HStack(spacing: 12) {
                         Button {
+                            if let random = allRecipes.randomElement() {
+                                randomRecipe = random
+                            }
+                        } label: {
+                            Image(systemName: "dice.fill")
+                                .foregroundColor(.purple)
+                        }
+                        
+                        Button {
                             showImporterSheet = true
                         } label: {
                             Image(systemName: "globe.badge.chevron.backward")
@@ -222,6 +232,18 @@ struct HomeView: View {
             }
             .sheet(isPresented: $showCategorySheet) {
                 CategoryManagementView()
+            }
+            .sheet(item: $randomRecipe) { recipe in
+                NavigationStack {
+                    RecipeDetailView(recipe: recipe)
+                        .toolbar {
+                            ToolbarItem(placement: .navigationBarLeading) {
+                                Button("Close") {
+                                    randomRecipe = nil
+                                }
+                            }
+                        }
+                }
             }
             .scrollContentBackground(.hidden)
             .background(.regularMaterial)
