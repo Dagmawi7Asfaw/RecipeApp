@@ -17,10 +17,14 @@ A professional iOS culinary application built entirely with **SwiftUI** and **Sw
 ### 🚀 Premium Animated Splash Screen
 ![Animated Splash Screen](docs/splash_demo.gif)
 
-*(More screenshots coming soon)*
-- *Interactive Map & Culinary Atlas*
-- *Grocery List & Reminders Integration*
-- *Pantry Matcher & Weekly Planner*
+### 🍽️ Recipe Explorer & Features
+<p float="left">
+  <img src="docs/main_tabs.png" width="260" />
+  <img src="docs/continents.png" width="260" /> 
+  <img src="docs/surprise_me.png" width="260" />
+</p>
+
+*(More screenshots like Grocery List and Pantry Matcher coming soon)*
 
 ## 🚀 Getting Started
 
