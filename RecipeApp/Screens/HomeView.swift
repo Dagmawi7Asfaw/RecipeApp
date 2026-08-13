@@ -212,7 +212,7 @@ struct HomeView: View {
             systemImage: searchText.isEmpty ? "fork.knife.circle" : "magnifyingglass",
             description: Text(searchText.isEmpty
                 ? "Add your first recipe with the + button above."
-                : "No recipes match "\(searchText)". Try a different search.")
+                : "No recipes match \"\(searchText)\". Try a different search.")
         )
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
