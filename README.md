@@ -24,7 +24,11 @@ A professional iOS culinary application built entirely with **SwiftUI** and **Sw
   <img src="docs/surprise_me.png" width="260" />
 </p>
 
-*(More screenshots like Grocery List and Pantry Matcher coming soon)*
+### 🛒 Groceries & 🧊 Pantry Matcher
+<p float="left">
+  <img src="docs/grocery_list.png" width="260" />
+  <img src="docs/pantry_matcher.png" width="260" />
+</p>
 
 ## 🚀 Getting Started
 
