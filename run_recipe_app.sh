@@ -7,10 +7,10 @@ set -e
 
 cd "$(dirname "$0")"
 
-PROJECT_PATH="/Users/dagi/Documents/RecipeApp/RecipeApp.xcodeproj"
+PROJECT_PATH="$(pwd)/RecipeApp.xcodeproj"
 SCHEME="RecipeApp"
 PREFERRED_DEVICE="iPhone 17 Pro"
-BUNDLE_ID="com.bigmountainstudio.RecipeApp"
+BUNDLE_ID="com.DagmawiStudio.ChefsPocket"
 
 echo "=== 1. Checking Simulator State ==="
 # Check if a simulator device is already booted to avoid opening duplicate windows
